@@ -9,12 +9,17 @@ by [Tessa Rhinehart](https://www.tessarhinehart.com/) and [David Nicholson](http
 ### This code
 
 The first thing you'll need is the Jupyter notebooks we will run during the bootcamp.
+
 You can download the code by clicking on the blue "Code" button on the upper right,
-and then clicking the "Download zip" panel in the pop-out that appears.
+and then clicking the "Download ZIP" panel in the pop-out that appears.
+
+![image-of-code-button-with-download-panel](docs/images/download-github.png)
+
 Your browser will download a zip file that you should unzip in whatever location is convenient for you on your computer,
 e.g., `~\Users\You\documents\code`.
 
-If you are familiar with the version control tool `git`, you can use it to `clone` the repository, e.g.,
+Alternatively, if you are familiar with the version control tool `git`,
+you can use it to `clone` the repository, e.g.,
 
 ```console
 git clone https://github.com/vocalpy/acoustic-communication-and-bioacoustics-bootcamp.git
