@@ -10,10 +10,12 @@ by [Tessa Rhinehart](https://www.tessarhinehart.com/) and [David Nicholson](http
 
 The first thing you'll need is the Jupyter notebooks we will run during the bootcamp.
 
-You can download the code by clicking on the blue "Code" button on the upper right,
+You can download the code by clicking on the "Code" button on the upper right,
 and then clicking the "Download ZIP" panel in the pop-out that appears.
 
 ![image-of-code-button-with-download-panel](docs/images/download-github.png)
+(The button appears blue in light mode and green in dark mode -- either way it should be in the upper right of this page.)
+
 
 Your browser will download a zip file that you should unzip in whatever location is convenient for you on your computer,
 e.g., `~\Users\You\documents\code`.
@@ -36,6 +38,7 @@ We will work with conda and Python through the terminal, also known as the shell
 On macOS, you can use the built-in Terminal application or alternatives like iTerm2. If you install Anaconda, then conda will be available to you through the terminal. The built-in terminal will also work on Linux.
 
 If you are on Windows and using Anaconda and the conda package manager, you will want to install and run vak through the Anaconda prompt, that can be accessed as shown in the video below.
+https://www.youtube.com/watch?v=UAUO_K-bRMs
 
 We will only use the shell to start up Jupyter Lab, and we will show you how to do so.[^1]
 
@@ -51,6 +54,29 @@ This helps us make sure we all have a similar [computational environment](https:
 
 ```console
 conda create -n acabb-env "python=3.11" jupyterlab "vocalpy>=0.8.2" -c conda-forge
+```
+
+After you create the virtual environment, you need to `activate` it.
+This means you will be using the libraries you installed, and any other libraries you install will be added to the environment.
+
+```console
+conda activate acabb-env
+```
+
+You will know the environment is activated because your prompt in the terminal will change--usually the name of the
+environment appears in parentheses, like so:
+```console
+(acabb-env) $
+```
+
+(or on Windows)
+
+```console
+(acabb-env) C:\>
+```
+
+Finally you will want to `pip install` one more package into the virtual environment:
+```console
 pip install "opensoundscape>=0.10.0"
 ```
 
