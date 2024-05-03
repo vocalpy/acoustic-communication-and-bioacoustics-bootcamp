@@ -128,6 +128,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/DiaLiao"><img src="https://avatars.githubusercontent.com/u/10343894?v=4?s=100" width="100px;" alt="DiaLiao"/><br /><sub><b>DiaLiao</b></sub></a><br /><a href="https://github.com/vocalpy/acoustic-communication-and-bioacoustics-bootcamp/commits?author=DiaLiao" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nickjourjine"><img src="https://avatars.githubusercontent.com/u/56172893?v=4?s=100" width="100px;" alt="Nick Jourjine"/><br /><sub><b>Nick Jourjine</b></sub></a><br /><a href="https://github.com/vocalpy/acoustic-communication-and-bioacoustics-bootcamp/commits?author=nickjourjine" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
