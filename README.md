@@ -54,6 +54,29 @@ This helps us make sure we all have a similar [computational environment](https:
 
 ```console
 conda create -n acabb-env "python=3.11" jupyterlab "vocalpy>=0.8.2" -c conda-forge
+```
+
+After you create the virtual environment, you need to `activate` it.
+This means you will be using the libraries you installed, and any other libraries you install will be added to the environment.
+
+```console
+conda activate acabb-env
+```
+
+You will know the environment is activated because your prompt in the terminal will change--usually the name of the
+environment appears in parentheses, like so:
+```console
+(acabb-env) $
+```
+
+(or on Windows)
+
+```console
+(acabb-env) C:\>
+```
+
+Finally you will want to `pip install` one more package into the virtual environment:
+```console
 pip install "opensoundscape>=0.10.0"
 ```
 
