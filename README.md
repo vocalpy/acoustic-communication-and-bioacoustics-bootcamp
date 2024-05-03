@@ -1,4 +1,7 @@
 # acoustic-communication-and-bioacoustics-bootcamp
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A bootcamp on acoustic communication and bioacoustics in Python,
 presented at the Gordon Research Seminar Neural Mechanisms of Acoustic Communication 2024
@@ -114,3 +117,24 @@ jupyter lab
 Videos are available of instructors leading these lessons on-line, for example
 [this one](https://www.youtube.com/watch?v=ifgeZ9n7MpA&list=PLE9Qrf4CJnRGiT9L9VbyYHDnVFQnrIfaR).
 You don't need to know all that for this bootcamp, though.
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nickjourjine"><img src="https://avatars.githubusercontent.com/u/56172893?v=4?s=100" width="100px;" alt="Nick Jourjine"/><br /><sub><b>Nick Jourjine</b></sub></a><br /><a href="https://github.com/vocalpy/acoustic-communication-and-bioacoustics-bootcamp/commits?author=nickjourjine" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
