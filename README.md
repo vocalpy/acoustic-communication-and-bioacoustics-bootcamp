@@ -52,7 +52,9 @@ First we will create a [virtual environment](https://realpython.com/python-virtu
 This helps us make sure we all have a similar [computational environment](https://the-turing-way.netlify.app/reproducible-research/renv). Conda can also [create environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package),
 so we will use conda.
 
-0. Install the Anaconda distribution on your computer (see link above)
+### 1. Create virtual environment and install packages
+
+0. Install the Anaconda distribution on your computer: https://docs.anaconda.com/anaconda/install/
 1. In the terminal, create a conda environment.
 
 (On most operating systems, you can copy and paste the following into the terminal -- you don't have to type it out!)
@@ -85,16 +87,21 @@ Finally you will want to `pip install` three more packages into the virtual envi
 pip install "opensoundscape>=0.10.1" tensorflow-cpu timm
 ```
 
-(Pip is another package manager, that downloads packages from PyPI.
-We need to use pip to install because there is not yet a conda package for opensoundscape.
+([Pip](https://pip.pypa.io/en/stable/) is another package manager, that installs packages from the [Python Package Index](https://pypi.org/) (AKA PyPI).
+We need to use pip to install because Google does not make conda packages for tensorflow,
+and there is not yet a conda package for opensoundscape.
 It's beyond the scope of this bootcamp, but
-for purposes of scientific reproducibility you generally don't want to mix them.
+for purposes of scientific reproducibility you generally
+want to avoid using pip in a conda environment,
+and if you have to, you should use pip "last", after installing as much as you can with conda.
 See [this blog post from 2018](https://www.anaconda.com/blog/understanding-conda-and-pip).
 For even more nuance, see [this post from Itamar Turner-Trauring](https://pythonspeed.com/articles/conda-vs-pip/).
 There are ongoing efforts to [make the two work better together](https://conda.io/projects/conda/en/latest/user-guide/configuration/pip-interoperability.html), including newer tools like [pixi](https://prefix.dev/blog/pixi_a_fast_conda_alternative).
 )
 
-2. Download the data here and place it in the `./data` folder: https://drive.google.com/drive/folders/1s1tS6obMyZ3xIaLqqP_aAmAx7eCcZxbh?usp=drive_link
+### 2. Download data
+
+Download the data here and place it in the `./data` folder: https://drive.google.com/drive/folders/1s1tS6obMyZ3xIaLqqP_aAmAx7eCcZxbh?usp=drive_link
 
 You should end up with a folder structure like this:
 ```console
@@ -128,6 +135,7 @@ jupyter lab
 Videos are available of instructors leading these lessons on-line, for example
 [this one](https://www.youtube.com/watch?v=ifgeZ9n7MpA&list=PLE9Qrf4CJnRGiT9L9VbyYHDnVFQnrIfaR).
 You don't need to know all that for this bootcamp, though.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
