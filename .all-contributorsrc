@@ -8,6 +8,15 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "DiaLiao",
+      "name": "DiaLiao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10343894?v=4",
+      "profile": "https://github.com/DiaLiao",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
       "login": "nickjourjine",
       "name": "Nick Jourjine",
       "avatar_url": "https://avatars.githubusercontent.com/u/56172893?v=4",
