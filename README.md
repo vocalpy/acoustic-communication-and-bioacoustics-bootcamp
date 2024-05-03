@@ -48,8 +48,9 @@ We will only use the shell to start up Jupyter Lab, and we will show you how to 
 
 ## Set-up
 
-First we will create a [virtual environment]() to work in.
-This helps us make sure we all have a similar [computational environment](https://the-turing-way.netlify.app/reproducible-research/renv).
+First we will create a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/) to work in.
+This helps us make sure we all have a similar [computational environment](https://the-turing-way.netlify.app/reproducible-research/renv). Conda can also [create environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package),
+so we will use conda.
 
 0. Install the Anaconda distribution on your computer (see link above)
 1. In the terminal, create a conda environment.
@@ -83,6 +84,15 @@ Finally you will want to `pip install` one more package into the virtual environ
 ```console
 pip install "opensoundscape>=0.10.0"
 ```
+
+(Pip is another package manager, that downloads packages from PyPI.
+We need to use pip to install because there is not yet a conda package for opensoundscape.
+It's beyond the scope of this bootcamp, but
+for purposes of scientific reproducibility you generally don't want to mix them.
+See [this blog post from 2018](https://www.anaconda.com/blog/understanding-conda-and-pip).
+For even more nuance, see [this post from Itamar Turner-Trauring](https://pythonspeed.com/articles/conda-vs-pip/).
+There are ongoing efforts to [make the two work better together](https://conda.io/projects/conda/en/latest/user-guide/configuration/pip-interoperability.html), including newer tools like [pixi](https://prefix.dev/blog/pixi_a_fast_conda_alternative).
+)
 
 2. Download the data here and place it in the `./data` folder: https://drive.google.com/drive/folders/1s1tS6obMyZ3xIaLqqP_aAmAx7eCcZxbh?usp=drive_link
 
