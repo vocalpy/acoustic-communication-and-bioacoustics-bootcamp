@@ -16,7 +16,8 @@ The first thing you'll need is the Jupyter notebooks we will run during the boot
 You can download the code by clicking on the "Code" button on the upper right,
 and then clicking the "Download ZIP" panel in the pop-out that appears.
 
-![image-of-code-button-with-download-panel](docs/images/download-github.png)
+<img src="https://github.com/vocalpy/acoustic-communication-and-bioacoustics-bootcamp/blob/main/docs/images/download-github.png?raw=true" width=300 alt="image-of-code-button-with-download-panel">
+
 (The button appears blue in light mode and green in dark mode -- either way it should be in the upper right of this page.)
 
 
