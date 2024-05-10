@@ -1,0 +1,1 @@
+from .birdnet import BirdNET
