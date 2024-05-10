@@ -3,3 +3,6 @@
 
 # data
 data/
+
+# model weights/labels
+BirdNET*
