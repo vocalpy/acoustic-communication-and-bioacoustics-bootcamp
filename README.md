@@ -82,9 +82,9 @@ environment appears in parentheses, like so:
 (acabb-env) C:\>
 ```
 
-Finally you will want to `pip install` three more packages into the virtual environment:
+Finally you will want to `pip install` two more packages into the virtual environment:
 ```console
-pip install "opensoundscape>=0.10.1" tensorflow-cpu timm
+pip install "opensoundscape>=0.10.1" tensorflow-cpu
 ```
 
 ([Pip](https://pip.pypa.io/en/stable/) is another package manager, that installs packages from the [Python Package Index](https://pypi.org/) (AKA PyPI).
