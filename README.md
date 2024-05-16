@@ -60,7 +60,7 @@ so we will use conda.
 (On most operating systems, you can copy and paste the following into the terminal -- you don't have to type it out!)
 
 ```console
-conda create -n acabb-env "python=3.11" jupyterlab "vocalpy>=0.8.2" -c conda-forge
+conda create -n acabb-env "python=3.11" jupyterlab "vocalpy>=0.8.2" scikit-learn umap-learn hdbscan "seaborn>=0.13" -c conda-forge
 ```
 
 After you create the virtual environment, you need to `activate` it.
