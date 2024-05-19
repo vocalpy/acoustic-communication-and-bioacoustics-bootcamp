@@ -7,6 +7,9 @@ A bootcamp on acoustic communication and bioacoustics in Python,
 presented at the Gordon Research Seminar Neural Mechanisms of Acoustic Communication 2024
 by [Tessa Rhinehart](https://www.tessarhinehart.com/) and [David Nicholson](https://nicholdav.info/about.html).
 
+Slides are here:
+https://docs.google.com/presentation/d/1dhQCF-IdN4owf4hiC94sKMef_nvhpXVIvNpYK8wOEuY/edit?usp=sharing
+
 ## Prerequisites
 
 ### This code
