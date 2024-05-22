@@ -10,6 +10,9 @@ by [Tessa Rhinehart](https://www.tessarhinehart.com/) and [David Nicholson](http
 Slides are here:
 https://docs.google.com/presentation/d/1dhQCF-IdN4owf4hiC94sKMef_nvhpXVIvNpYK8wOEuY/edit?usp=sharing
 
+Resources with links are here:
+https://docs.google.com/document/d/1RSqPbhUZk8P-8q9_0qSpsMJj8Qbx8q4kAHJw-KBHIwg/edit?usp=sharing
+
 ## Prerequisites
 
 ### This code
